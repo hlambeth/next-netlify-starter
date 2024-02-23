@@ -4,6 +4,7 @@ import Footer from '@components/Footer'
 import { DatePicker } from 'antd'
 import 'antd/dist/antd.css'
 import { useEffect } from 'react'
+import * as UI from '@brikit/bobbin-ui-kit'
 
 export default function Home() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        <UI.TabjayButton>TabjayButton</UI.TabjayButton>
       </main>
       <DatePicker
       />
