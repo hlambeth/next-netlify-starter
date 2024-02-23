@@ -33,7 +33,7 @@ const nextConfig = {
         ignoreDuringBuilds: true,
     },
     // ensures we get all assets from the ui-kit into next.js
-    // transpilePackages: ['@brikit/bobbin-ui-kit'],
+    transpilePackages: ['@brikit/bobbin-ui-kit'],
 
 }
 
